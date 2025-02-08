@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUTIK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="flex p-5 sm:p-7 md:p-9 lg:pl-[10rem] lg:pr-[10rem] justify-between items-center ">
+        <div class="logo shadow-[6px_6px_0px_#ffbd59] logo-nav">
+            <img src="/Dark Green and White Organ Leaf Illustrative Health Logo (275 x 200 px) (175 x 100 px).png" 
+                 class="w-24" alt="logo">
+        </div>
+    
+        <!-- Hamburger Menu Button -->
+        <button id="menu-toggle" class="md:hidden text-black">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    
+        <!-- Menu -->
+        <div id="menu" class="hidden md:flex bg-[#ffbd59] p-4 justify-center  items-center shadow-lg absolute md:relative top-16 md:top-0 left-0 w-full md:w-[35rem] lg:w-[40rem]">
+            <ul class="flex flex-col md:flex-row gap-[3.70rem] text-lg lg:text-xl text-center md:text-left">
+                <li><a href="#" class="text-black font-medium hover:underline">Über uns</a></li>
+                <li><a href="#" class="text-black font-medium hover:underline">MUTIK in Zahlen</a></li>
+                <li><a href="#" class="text-black font-medium hover:underline">Projekte</a></li>
+                <li><a href="#" class="text-black font-medium hover:underline">Kontakt</a></li>
+            </ul>
+        </div>        
+    </nav>
+    
+    <!-- First Section -->
+    <section class="relative items-center lg:px-[4rem] py-16 bg-cover bg-top h-[35rem] bg-[url('/img-1.jpg')] -mt-[20vh] z-[-1]">
+        <div class="absolute mt-16 ml-4 md:ml-18 max-w-xs md:max-w-lg bg-[#2b3a42] text-yellow-300 p-6 transform shadow-lg rotate-[-3deg] mt-[31vw] sm:mt-[17vw] md:mt-[15vw] lg:mt-[48vh] lg:mt-[50vh]">
+            <p class="text-lg md:text-xl font-semibold leading-relaxed rotate-[3deg]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eius, debitis eaque corporis itaque ducimus recusandae, suscipit eligendi, voluptate expedita deserunt id veniam enim!
+            </p>
+        </div>
+    </section>
+    
+
+    <!-- Social Media Section -->
+    <section class="flex flex-col md:flex-row justify-center items-center h-auto mt-4 text-gray-700 mt-[5rem] mb-[4rem] md:mt-[10rem] md:mb-[7rem]">
+        <div class="text-center md:pr-10 font-bold text-2xl md:text-3xl">
+            <h3>Folge MUTIK auf</h3>
+        </div>
+        <div>
+            <ul class="flex gap-4 justify-center text-4xl md:text-5xl">
+                <a href="#"><li class="fa-brands fa-facebook"></li></a>
+                <a href="#"><li class="fa-brands fa-twitter"></li></a>
+                <a href="#"><li class="fa-brands fa-youtube"></li></a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="flex justify-center items-center pt-6 pb-[7rem] md:pb-[11rem] mr-10 ml-10">
+        <div class="max-w-sm  md:max-w-2xl lg:max-w-4xl space-y-4 ">
+            <h3 class="text-3xl md:text-4xl font-semibold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatem suscipit?
+            </h3>
+            <p class="text-lg md:text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam aliquam repudiandae odit praesentium debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, consequuntur. Ut facilis autem laudantium animi praesentium eligendi mollitia quis repellendus exercitationem, consectetur ipsa, rerum deserunt amet perferendis tempora quisquam nulla.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="relative bg-[url('/img-2.jpg')] bg-cover bg-bottom h-[48rem]">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="absolute left-0 top-1/2 transform -translate-y-1/2 ml-4 md:ml-16 h-auto max-w-lg bg-[#2b3a42] text-white p-7 shadow-lg flex flex-col justify-center items-start">
+            <h2 class="text-2xl font-semibold">MUTIK in Zahlen</h2>
+            <p class="pt-4 text-lg">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nobis officia ea ducimus aut unde excepturi officiis recusandae.
+            </p>
+            <h4 class="pt-10 text-lg font-semibold">Mehr erfahren</h4>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="mt-4 relative bg-[url('/img-3.jpg')] bg-cover bg-bottom h-[48rem]">
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <div class="absolute right-0 top-1/2 transform -translate-y-1/2 mr-4 md:mr-16 h-auto max-w-md bg-[#FDCF04] text-gray-900 p-7 shadow-lg flex flex-col justify-center items-start">
+            <h2 class="text-2xl font-semibold">Daten und Fakten zu kultureller Bildung</h2>
+            <p class="pt-4 text-lg">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aspernatur ipsum recusandae provident, expedita iste vitae id esse labore velit. Officia.
+            </p>
+            <h4 class="pt-10 text-lg font-semibold">Mehr erfahren</h4>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="flex flex-col md:flex-row justify-center items-center p-10 space-x-10">
+        <div class="relative w-full md:w-1/2 flex flex-col mr-2">
+            <div class="pb-5 max-w-3xl text-gray-700">
+                <h1 class="font-bold text-4xl">Unsere Projekte</h1>
+                <p class="pt-3 pb-5 text-lg font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates cupiditate ut adipisci obcaecati enim velit ea veritatis repudiandae corrupti voluptatem harum eius numquam eos, ab non fugiat fugit modi dolorum deleniti.</p>
+            </div>
+            <div class="relative bg-[url('./img-4.png')] bg-cover h-[27rem] bg-center max-w-[40rem] text-white">
+                <div class="absolute bg-[#6F2EA8] bottom-5 ml-7 h-auto p-4">
+                    <h1 class="text-3xl font-semibold">Kulturagenten für kreative Schulen</h1>
+                    <p class="pt-3 text-xl font-light">Lorem ipsum dolor sit. Voluptas cum quibusdam reiciendis reprehenderit mollitia! Asperiores exercitationem commodi consequuntur quas possimus, sunt culpa earum repellat dolores pariatur, labore delectus!</p>
+                </div>
+            </div>
+            <div class="mt-10 relative bg-[url('/img-5.jpg')] bg-cover h-[38rem] bg-center max-w-xl text-white ml-2">
+                <div class="absolute bg-[#0087A4] bottom-5 ml-7 h-auto p-4">
+                    <div class="flex">
+                        <h1 class="text-4xl font-semibold">Junge Islam Konferenz</h1>
+                        <span><i class="fa-solid fa-arrow-up-from-bracket rotate-[40deg] text-2xl"></i></span>
+                    </div>
+                    <p class="pt-3 text-xl font-light">Lorem ipsum dolor sit amet. Similique labore error recusandae exercitationem, provident corrupti quisquam reiciendis voluptates ipsum, ut voluptatem voluptas? Quidem, cumque officiis!</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 flex flex-col justify-between pt-0 sm:pt-4 lg:h-[73rem]">
+            <div class="ml-4 md:ml-0 relative bg-[url('/img-6.png')] bg-cover h-[34rem] bg-center max-w-2xl text-white">
+                <div class="absolute bg-[#00FFFF] bottom-5 ml-7 h-auto p-4">
+                    <h1 class="text-4xl font-semibold">Kreativpotentiale im Dialog</h1>
+                    <p class="pt-3 text-xl font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="relative mt-5 bg-[url('/img-3.jpg')] bg-cover bg-center h-[23rem]">
+                <div class="absolute bg-[#E32818] text-white bottom-5 ml-7 p-6 flex flex-col justify-center items-start">
+                    <h1 class="text-4xl font-semibold">Kunstlabore</h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloribus dolor sit itaque, dolores corrupti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="relative bg-[url('/img-7.jpg')] bg-cover bg-center h-[48rem]">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="absolute left-0 top-1/2 transform -translate-y-1/2 ml-4 md:ml-16 h-auto max-w-lg bg-[#E32818] text-white p-10 shadow-lg flex flex-col justify-center items-start">
+            <h2 class="text-2xl font-semibold">Unser Netzwerk</h2>
+            <p class="pt-4 text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam sunt ipsam eveniet quae aliquid quas incidunt magni! Tempore ratione doloribus cum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia earum quis ullam quia.</p>
+            <h4 class="pt-10 text-lg font-semibold">Zur Karte</h4>
+        </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section class="relative bg-[url('/img-8.jpg')] bg-cover bg-top h-[48rem] mt-4">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="absolute left-0 top-1/2 transform -translate-y-1/2 ml-4 md:ml-16 h-auto max-w-xl p-10 flex flex-col justify-center items-start">
+            <h2 class="text-2xl font-semibold text-yellow-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim similique sunt beatae quasi, porro iure ex doloribus architecto dolorum corrupti adipisci in non vero laborum laboriosam. Temporibus, ducimus? Nisi, provident!</h2>
+            <p class="pt-1 text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.</p>
+            <button class="bg-yellow-400 p-4 mt-5 w-48 text-xl font-medium text-gray-800 hover:bg-yellow-300">Mehr erfahren</button>
+        </div>
+    </section>
+
+    <footer class="flex flex-col md:flex-row justify-between items-center bg-white p-8">
+        <div class="items-center space-y-4 max-w-[15rem]">
+            <img class="w-40 h-auto shadow-[8px_8px_0px_#ffbd59]" src="/Dark Green and White Organ Leaf Illustrative Health Logo (275 x 200 px) (175 x 100 px).png" alt="MUTIK Logo" />
+            <img class="w-full h-auto" src="/Blue Modern Medical Logo.png" alt="Stiftung Mercator Logo" />
+            <p class="text-gray-600 text-lg">MUTIK gGmbH wird gefördert durch die Stiftung Mercator.</p>
+        </div>
+
+        <div class="text-gray-700 space-y-2 flex flex-col md:flex-row pr-0 md:pr-10 space-x-0 md:space-x-10 h-auto">
+            <div class="space-y-3 text-xl">
+                <p>MUTIK gGmbH</p>
+                <p>Neue Promenade 6</p>
+                <p>10178 Berlin</p>
+                <p class="font-semibold underline pt-10">katja.borch@mutik.org</p>
+                <p>030 20 21 563 13</p>
+            </div>
+            <div class="space-y-3 text-xl">
+                <p class="font-bold">Kontakt</p>
+                <p class="font-bold">Impressum</p>
+                <p class="font-bold">Datenschutz</p>
+                <div class="flex justify-end space-x-4 pt-8 text-4xl">
+                    <a href="#" class="text-gray-700"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-gray-700"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-700"><i class="fab fa-youtube"></i></a>
+                </div>                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/1bcdea6025.js" crossorigin="anonymous"></script>
+</body>
+</html>
